@@ -1,0 +1,43 @@
+MODEL: "modelname1" 
+{ 
+	FILEPATH = "FILEPATH1"; 
+	TEXTUREPATH = "TEXTUREPATH1"; 
+	NORMALPATH = "NORMALPATH1"; 
+	TRANSFORM = 
+    [
+        MOVABLE = true|
+        POSITION = -1.0f, -1.0f, -1.0f|
+        ROTATION = -2.0f, -2.0f, -2.0f|
+        SCALE = -3.0f, -3.0f, -3.0f
+    ];
+}
+
+MODEL:"modelname2"
+{
+	FILEPATH = "FILEPATH2";
+	TEXTUREPATH = "TEXTUREPATH2";
+	NORMALPATH = "NORMALPATH2";
+	TRANSFORM = 
+    [
+        MOVABLE = false|
+        POSITION = 1.0f, 1.0f, 1.0f|
+        ROTATION = 2.0f, 2.0f, 2.0f|
+        SCALE = 3.0f, 3.0f, 3.0f
+    ];
+}
+
+MODEL:"modelname3"
+{
+	FILEPATH = "FILEPATH3";
+	TEXTUREPATH = "TEXTUREPATH3";
+	NORMALPATH = "NORMALPATH3";
+	TRANSFORM = 
+    [
+        MOVABLE = true|
+        POSITION = 10.0f, 10.0f, 10.0f|
+        ROTATION = 20.0f, 20.0f, 20.0f|
+        SCALE = 30.0f, 30.0f, 30.0f
+    ];
+}
+
+
